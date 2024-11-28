@@ -1,23 +1,194 @@
-<header>
-    <div class="header-section-1">
-        <h1>The Change the World University Challenge</h1>
-    </div>
-    <div class="header-section-2"><img src="CTWUC-logo.jpg" alt="CTWUC Logo"></div>
-    <div class="header-section-3">
-        <h2>Ignite Innovation, Inspire Action</h2>
-        <p>Address global challenges through collective intelligence and innovative thinking</p>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Change the World University Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #0044cc;
+ display: flex;
+            align-items: center;
+            padding: 10px;
+             color: white;
+        }
+                /* Logo section on the far left */
+        .header-logo {
+            max-height: 80px; /* Full height of the header */
+            margin-right: 10px;
+        }
+
+        /* "CTWUC" text styled to span two lines, using a narrow font */
+        .header-ctwuc {
+            font-size: 2.5em;
+            font-family: Arial, sans-serif; /* Narrower font */
+            font-weight: bold;
+            line-height: 1em;
+            color: #333;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        /* Text section next to "CC4CI" */
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+
+        .header-text p {
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: white;
+            color: black;
+        }
+        .hero h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .hero a {
+            display: inline-block;
+            background-color: #ffc107;
+            color: #0044cc;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .sections {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            gap: 20px;
+            justify-content: center;
+        }
+        .section {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .section h3 {
+            margin-bottom: 10px;
+            color: #0044cc;
+        }
+        .section p {
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header> 
+    <!-- Logo on the far left -->
+    <img src="CTWUC-logo.jpg" alt="CTWUC Logo" class="header-logo">
+
+    <!-- Two lines of justified text to the right of "CTWUC" -->
+    <div class="header-text">
+    <h1>The Change the World University Challenge</h1>
+    <p>Empowering Students to Innovate for a Better Tomorrow</p>
     </div>
 </header>
 <nav>
-    <p><a href="index.html">Home</a> <a href="about.html">About</a> <a href="resources.html">Resources</a> <a href="sponsors.html">Sponsors</a> <a href="events.html">Events</a> <a href="news.html">News</a> <a href="publications.html">Publications</a></p>
+    <style>
+        nav {
+            text-align: center;
+            background-color: white; /* Change to desired background color */
+            padding: 10px 0;
+        }
+        nav p {
+            margin: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: black; /* Change to desired text color */
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline; /* Optional hover effect */
+        }
+    </style>
+    <p>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resources.html">Resources</a>
+        <a href="sponsors.html">Sponsors</a>
+        <a href="events.html">Events</a>
+        <a href="news.html">News</a>
+        <a href="publications.html">Publications</a>
+    </p>
 </nav>
-<section class="video-container">
-    <h1 style="text-align:center;">Quick Intro</h1>
-    <div class="video-container"><iframe src="https://www.youtube.com/embed/avNVycJ_fHI" allowfullscreen=""></iframe></div>
-</section>
-<section class="intro">
-    <h2>Welcome to the Change the World University Challenge</h2>
-    <p>The Change the World University Challenge is an innovative and transformative contest designed to engage university students in addressing some of the most pressing global challenges of our time. The contest encourages participants to explore groundbreaking concepts such as <strong>collective intelligence</strong>, the <strong>technology gravity well</strong>, and the <strong>collective social brain hypothesis</strong>.</p>
-    <p>Through this challenge, students will have the opportunity to propose creative solutions that harness the power of collective intelligence to tackle issues like economic inequality, climate change, and technological disruption. By participating, you’ll not only contribute to solving real-world problems but also gain recognition for your innovative thinking and collaborate with like-minded individuals from around the world.</p>
-    <p>The challenge begins with an essay contest open to students across all departments, inviting them to explore these critical topics. The best essays will be showcased to a global audience, and winners will receive exciting rewards, including recognition from leading academics and industry professionals.</p>
-</section>
+
+
+<div class="hero">
+    <h2>Take the Challenge, Change the World</h2>
+    <p>Join a global community of university students making a real impact. Collaborate, innovate, and lead the change.</p>
+    <a href="get-started.html">Get Started</a>
+</div>
+
+<div class="sections">
+    <div class="section">
+        <h3><a href="about.html">About the Challenge</a></h3>
+        <p>Learn more about the mission, goals, and opportunities offered by the Change the World University Challenge.</p>
+    </div>
+    <div class="section">
+        <h3><a href="success.html">Success Stories</a></h3>
+        <p>Discover inspiring ideas for projects and their journey toward making an impact.</p>
+    </div>
+    <div class="section">
+        <h3><a href="participate.html">How to Participate</a></h3>
+        <p>Find out how you can register, form a team, and submit your project to join the challenge.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Change the World University Challenge. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
